@@ -1,3 +1,9 @@
+# Editor
+.vscode/
+*.sw*
+# Backup files
+*.bak
+*.orig
 # Lock file
 .hugo_build.lock
 # These are auto-generated
