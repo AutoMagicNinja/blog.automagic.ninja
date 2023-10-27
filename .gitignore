@@ -1,0 +1,6 @@
+# Lock file
+.hugo_build.lock
+# These are auto-generated
+assets/
+public/
+resources/
