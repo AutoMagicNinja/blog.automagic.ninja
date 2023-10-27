@@ -2,3 +2,7 @@ baseURL: https://blog.automagic.ninja/
 languageCode: en-us
 title: AutoMagicNinja's Blog
 metadataLanguage: yaml
+theme: github.com/CaiJimmy/hugo-theme-stack/v3
+module:
+  imports:
+    - path: github.com/CaiJimmy/hugo-theme-stack/v3
