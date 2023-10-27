@@ -6,3 +6,58 @@ theme: github.com/CaiJimmy/hugo-theme-stack/v3
 module:
   imports:
     - path: github.com/CaiJimmy/hugo-theme-stack/v3
+params:
+  mainSections:
+    - post
+  featuredImageField: image
+  rssFullContent: true
+  favicon:
+
+  footer:
+    since: 2023
+    customText: Discussing random things.
+
+  dateFormat:
+    published: 2006 Jan 02
+    lastUpdated: 2006 Jan 02, 15:04 MST (-0700)
+
+  sidebar:
+    compact: false
+    emoji:
+    subtitle:
+    avatar:
+      enabled: true
+      local: true
+      src: img/avatar.png
+
+  article:
+    math: true
+    toc: true
+    readingTime: true
+    license:
+      enabled: false
+      default: Licensed under CC BY-NC-SA 4.0
+
+  comments:
+    enabled: false
+
+  widgets:
+    homepage: []
+    page: []
+
+  defaultImage:
+    opengraph:
+      enabled: false
+
+  colorScheme:
+    # Display toggle
+    toggle: true
+
+    # Available values: auto, light, dark
+    default: auto
+
+  imageProcessing:
+    cover:
+      enabled: true
+    content:
+      enabled: true
